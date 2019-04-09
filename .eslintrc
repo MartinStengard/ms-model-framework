@@ -1,0 +1,45 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "prefer-template": 2,
+        "semi-style": 2,
+        "semi": 2,
+        "space-before-blocks": 2,
+        "space-before-function-paren": 2,
+        "space-in-parens": 2,
+        "space-infix-ops": 2,
+        "spaced-comment": 2,
+        "switch-colon-spacing": 2,
+        "no-return-assign": 2,
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "warn"
+                ]
+            }
+        ]
+    },
+    "env": {
+        "browser": true,
+        "jasmine": true
+    },
+    "globals": {
+        "tg": true,
+        "$": true,
+        "jQuery": true,
+        "window": true,
+        "console.warn": true
+    }
+}
